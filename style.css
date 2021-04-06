@@ -50,9 +50,12 @@ table {
 	color: white;
 	font-size: 25px;
 	font-weight: bold;
+	font-family: sans-serif;
 }
 #sectionBottom a {
 	color: #ff4f4f;
+	font-family: sans-serif;
+	text-decoration: none;
 }
 .articleBottom {
 	display: inline-block;
@@ -61,10 +64,13 @@ table {
 	text-align: center;
 	width: 20%;
 }
-.articleBottom:is(i, h2, a) {
+.articleBottom :is(i, h2, a) {
 	margin: 5%;
 }
 i {
 	color: white;
 	font-size: 40px;
+}
+#iconRota {
+	transform: rotate(135deg);
 }
