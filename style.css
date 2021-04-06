@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+	padding: 0;
+    width: auto;
+    align-items: center;
+    background-image: url(https://image.freepik.com/free-photo/work-home-concept-business-objects-home-table-background_34362-1615.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    color: white;
+    background-color:#fa7878a1;
+    width: 100%;    
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+main {
+    color: white;
+    background-color: #fa7878a1;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 600px;
+}
+main h2 {
+    font-weight: lighter;
+    font-size: 48px;
+}
+
+        /*étoile*/
+main span:nth-of-type(1) {    
+    color: white;
+    font-size: 120px;
+}
+
+pre {
+    font-size: large;
+}
+        /*bouton*/
+main span:nth-of-type(2) {
+    display: flex;
+    background-color:#344a61;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 50px;
+}
+
+main span:nth-of-type(2):hover {    
+    background-color: rgb(45, 124, 170);    
+    transition: 0.3s;
+}
+
+main span:nth-of-type(2) a {
+    color: white;    
+    text-decoration: none;
+} 
+
+ section{
+    color: white;    
+    margin: 0;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+   
+    background-color:#344a61;
+}
+article {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+section i {
+    font-size: 36px;
+}
+section a {
+    color: rgb(165, 117, 165);
+    text-decoration: none;
+}
+
+
+
