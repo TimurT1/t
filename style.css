@@ -42,3 +42,29 @@ table {
 	border-spacing: 0;
 }
 /*$$$$$$$$$$$$$$$$$$$$$ FIN DU RESET $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$*/
+#sectionBottom {
+    background-color: #2c2c36;
+	width: 100%;
+}
+#sectionBottom h2 {
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+#sectionBottom a {
+	color: #ff4f4f;
+}
+.articleBottom {
+	display: inline-block;
+	margin: auto;
+	padding: 5%;
+	text-align: center;
+	width: 20%;
+}
+.articleBottom:is(i, h2, a) {
+	margin: 5%;
+}
+i {
+	color: white;
+	font-size: 40px;
+}
