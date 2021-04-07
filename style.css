@@ -1,7 +1,7 @@
+
 body {
     margin: 0;
-	padding: 0;
-    width: auto;
+	padding: 0;    
     align-items: center;
     background-image: url(https://image.freepik.com/free-photo/work-home-concept-business-objects-home-table-background_34362-1615.jpg) ;
     background-repeat: no-repeat;
@@ -9,12 +9,11 @@ body {
 }
 header{
     color: white;
-    background-color:#fa7878a1;
-    width: 100%;    
+    background-color:#fa7878a1; 
     display: flex;
     flex-flow: row;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around stretch;
+    align-items: center stretch;
 }
 main {
     color: white;
@@ -60,7 +59,7 @@ main span:nth-of-type(2) a {
     color: white;    
     text-decoration: none;
 } 
-
+/**/
  section{
     color: white;    
     margin: 0;
