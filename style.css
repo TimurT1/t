@@ -12,8 +12,8 @@ header{
     background-color:#fa7878a1; 
     display: flex;
     flex-flow: row;
-    justify-content: space-around stretch;
-    align-items: center stretch;
+    justify-content: space-around;
+    align-items: center;
 }
 main {
     color: white;
